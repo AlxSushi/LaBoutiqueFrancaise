@@ -39,10 +39,11 @@ class RegisterController extends AbstractController
 
            $this->entityManager->persist($user);
            $this->entityManager->flush();
+           $notification = "votre mot de passe à bien été mis à jours";
        }
 
         return $this->render('register/index.html.twig', [
-            'registerform' => $registerform->createView()
+            'registerform' => $registerform->createView(),
         ]);
     }
 }

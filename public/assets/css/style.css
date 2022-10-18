@@ -1,0 +1,28 @@
+.nav-bar-item-custom, .nav-bar-item-custom a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    position: relative;
+}
+
+.footer-custom {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #0c5460;
+    padding-top: 10px;
+}
+
+.product-item h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.product-item .product-price {
+    font-size: 14px;
+    font-weight: bold;
+}
